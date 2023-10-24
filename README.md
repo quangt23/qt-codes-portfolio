@@ -14,5 +14,6 @@
 * Once Commited, Open VSCode on Main Branch
 * Go to GitHub Desktop, Fetch Origin
 * Go to Main Branch, Open Terminal in VSCode
+* Push Origin
 * Type 'npm run deploy'
 * Visit Website
