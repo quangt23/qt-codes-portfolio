@@ -6,7 +6,7 @@
 * Go to GitHub Desktop
 * Swap to Dev Branch
 * Commit Changes
-* Click Yes On Every Option
+* Click Yes (PUSH) On Every Option
 * It will create pull request button
 * click that, yes on every prompt
 * create pull request
