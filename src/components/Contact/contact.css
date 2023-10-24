@@ -1,0 +1,143 @@
+.contact{
+    color: #F6F0ED;
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-left: 15%;
+    padding-right: 25%;
+    height: 79vh;
+}
+
+.contact-divider{
+    color: #F6F0ED;
+}
+
+.contact-title::after{
+    content: "";
+    height: 2px;
+    width: 30%;
+    background-color: #F6F0ED;
+    display: block;
+}
+
+.contact-h2{
+    padding-top: 5%;
+    padding-bottom: 5px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    position: relative; /* Make the container a positioned element */
+  }
+  
+
+.contact-container::before {
+    content: "";
+    width: 3px;
+    background-color: #303030;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contact-form, .my-socials{
+    padding: 20px;
+    background-color: #3b3b3b;
+    width: 45%;
+    border-radius: 5px;
+}
+
+
+.social-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background: #303030;
+    padding: 10px;
+}
+
+.social-item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    filter: invert(1);
+}
+
+.quote{
+    padding-top: 20%;
+    font-style: italic;
+    font-size: 22px;
+    text-align: center;
+}
+
+.forever{
+    color: #49BEAA;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-container input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    height: 40px;
+  }
+ 
+
+.form-container input, .form-container textarea {
+    color: #F6F0ED;
+    font-size: 16px;
+    background-color: #303030;
+}
+
+.form-container input:focus, .form-container textarea:focus {
+    outline: none;
+}
+
+.form-container textarea {
+    padding: 10px;
+    height: 20vh;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.form-container button.submit {
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    background-color: #49BEAA;
+    border: none;
+    color: #303030;
+}
+
+.form-container button.submit:hover{
+    background: #F6F0ED;
+    color: #303030;
+}
+
+.sent-message{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%;
+}
+
+.touch{
+    color: #49BEAA;
+}

@@ -1,0 +1,100 @@
+#particles{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.hello, .introText, .introName, .introSub, .image img, .Text button, .social-links{
+    z-index: 2;
+}
+
+.Text {
+    height: 100vh;
+    width: 60vw;
+    padding-left: 15%;
+    font-size: 6rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #F6F0ED;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image img{
+    max-width: 440px;
+    max-height: 440px;
+    border-radius: 30px;
+    border: 5px solid #49BEAA;
+    transition: transform .5s;
+}
+
+.image :hover{
+    transform: translateY(-10px);
+}
+
+.introContent{
+    display: flex;
+    flex-direction: row;
+}
+
+.introName{
+    color: #49BEAA;
+}
+
+.introSub {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10vh;
+    font-size: 24px;
+}
+  
+.social-link {
+    margin-right: 15px;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    transition: fill 0.3s;
+}
+
+.social-icon-linkedin {
+    width: 27px;
+    height: 27px;
+    margin-top: 2px;
+    transition: fill 0.3s;
+}
+  
+.social-icon path, .social-icon-linkedin path {
+    transition: fill 0.3s;
+}
+  
+.social-link:hover .social-icon path, .social-link:hover .social-icon-linkedin path {
+    fill: #49BEAA;
+}
+
+
+@media screen and (max-width: 920px){
+    .Text {
+        font-size: 4rem;
+        padding-left: 5%;
+    }
+    .introSub{
+        font-size: 2rem;
+    }
+    .image{
+        display: none;
+    }
+}
