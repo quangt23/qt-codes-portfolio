@@ -12,7 +12,7 @@ export const Experience = () => {
                 <div className='accordion-tab-indicator'></div>
                 <div className='accordian-tab-group'>
                     <label for='one' className='tab' id='one-tab'>Sak's</label>
-                    <label for='two' className='tab' id='two-tab'>UMass</label>
+                    <label for='two' className='tab' id='two-tab'>Uass</label>
                 </div>
                 <div className='accordian-tab-contents'>
                     <div className='accordian-tab-content' id='one-tab-content'>
