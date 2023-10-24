@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/qt-codes-portfolio/static/css/main.42c017da.css",
+    "main.js": "/qt-codes-portfolio/static/js/main.f0b7e884.js",
+    "static/media/senr.jpg": "/qt-codes-portfolio/static/media/senr.3aa278b48a67254e3e89.jpg",
+    "static/media/location.png": "/qt-codes-portfolio/static/media/location.4ba2450b71e973e57b09.png",
+    "static/media/phone-call.png": "/qt-codes-portfolio/static/media/phone-call.4b7d3b664293d46d47f0.png",
+    "static/media/github.svg": "/qt-codes-portfolio/static/media/github.674444302d558cac94f5ecc4e6e6ca51.svg",
+    "index.html": "/qt-codes-portfolio/index.html",
+    "main.42c017da.css.map": "/qt-codes-portfolio/static/css/main.42c017da.css.map",
+    "main.f0b7e884.js.map": "/qt-codes-portfolio/static/js/main.f0b7e884.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42c017da.css",
+    "static/js/main.f0b7e884.js"
+  ]
+}

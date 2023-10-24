@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #333333;
+}
+
+::selection {
+    background-color: #49bea4; /* Change this to the color you want */
+    color: #000000; /* Change this to the text color within the highlight */
+  }
