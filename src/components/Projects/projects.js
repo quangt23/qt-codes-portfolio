@@ -29,7 +29,7 @@ const Projects = () => {
           </div>
         </div>
         <div class="project">
-          <div class="title">The TaskManager</div>
+          <div class="title">The Task Manager</div>
           <div class="description">A simple to-do-list in the form of a website. The user is allowed to create and remove their tasks.</div>
           <div class="technologies">HTML, CSS, JavaScript</div>
           <div class="github-button">
@@ -39,7 +39,7 @@ const Projects = () => {
           </div>
         </div>
         <div class="project">
-          <div class="title">Online Guessing Game</div>
+          <div class="title">Guessing Game</div>
           <div class="description">Choose a number between 1 and 10 with a limited number of tries. 
            The user has as a health bar and an incorrect guesses will decrease your chances of winning.</div>
           <div class="technologies">HTML, CSS, JavaScript</div>

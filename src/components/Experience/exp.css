@@ -119,6 +119,31 @@
     }
 }
 
+@media screen and (max-width: 1530px){
+    .experience{
+        padding-right: 30%;
+    }
+
+    #one:checked ~ .accordion-tab-indicator{
+        transform: translateY(110%);
+    }
+
+    #two:checked ~ .accordion-tab-indicator{
+        transform: translateY(235%);
+    }
+
+    .accordian-tab-group{
+        padding-left: 10%;
+        border-right: none;
+        border-bottom: 3px solid #1312121e;
+        padding-bottom: 5%;
+    }
+
+    .accordian-tab-wrapper{
+        display: inline;
+    }
+}
+
 @media screen and (max-width: 820px){
     .experience{
         padding-left: 5%;

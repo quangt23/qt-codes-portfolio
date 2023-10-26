@@ -13,3 +13,10 @@
 .copyright-footer p {
     margin: 0;
 }
+
+@media (max-width: 1519px) {
+    .footer{
+        padding-left: 5%;
+        padding-right: 30%;
+    }
+}
