@@ -12,7 +12,7 @@ function App() {
     <div className="App">
         <Intro/>
         <NavBar/>
-      <Fade>
+      <Fade triggerOnce={true} duration={1500}>
         <Skills/>
         <Experience/>
         <Projects/>
