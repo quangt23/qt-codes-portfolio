@@ -18,12 +18,12 @@ const Projects = () => {
           </div>
         </div>
         <div class="project">
-          <div class="title">Hexaflake Generator</div>
-          <div class="description">This program was designed to generate a Sierpinski Triangle but with hexagons. It uses
-          a recursive function to generate the mesmerizing image.</div>
+          <div class="title">Dynamic Solar System </div>
+          <div class="description">The N-Body Simulation project is a simple celestial body simulation program. 
+          It simulates the motion of celestial bodies, such as planets, in space.</div>
           <div class="technologies">SFML, C++</div>
           <div class="github-button">
-              <a href="https://github.com/yourrepositorylink">
+              <a href="https://github.com/quangt23/Solar-System-Simulation">
               <img src={github}/>
               </a>
           </div>
@@ -50,11 +50,11 @@ const Projects = () => {
           </div>
         </div>
         <div class="project">
-          <div class="title">Evil Hangman</div>
-          <div class="description">Written in C, Evil Hangman is a game that makes it impossible for the user to gues the correct word. Try it yourself!  </div>
-          <div class="technologies">C Programming</div>
+          <div class="title">Crate Master</div>
+          <div class="description">A Sokoban inspired game that challenges players to push a crate to it's designated location in a warehouse. Try it yourself! </div>
+          <div class="technologies">SFML, C++</div>
           <div class="github-button">
-              <a href="https://github.com/yourrepositorylink">
+              <a href="https://github.com/quangt23/Crate-Master">
               <img src={github}/>
               </a>
           </div>
@@ -64,7 +64,7 @@ const Projects = () => {
           <div class="description">A fully-responsive personal website portfolio designed from the top-down. Created by Quang Tran. </div>
           <div class="technologies">React.js, HTML, CSS, JavaScript</div>
           <div class="github-button">
-              <a href="https://github.com/yourrepositorylink">
+              <a href="https://github.com/quangt23/qt-codes-portfolio">
               <img src={github}/>
               </a>
           </div>
