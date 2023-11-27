@@ -12,7 +12,7 @@ const Projects = () => {
           <div class="description">A application designed using a Linear Feedback Shift Register to produce encrypted and decrypted photos.</div>
           <div class="technologies">SFML, C++ </div>
           <div class="github-button">
-              <a href="https://github.com/yourrepositorylink">
+              <a href="https://github.com/quangt23/Photo-Encrypter">
               <img src={github}/>
               </a>
           </div>
