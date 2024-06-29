@@ -85,6 +85,11 @@
     fill: #49BEAA;
 }
 
+@media screen and (max-width: 1600px) {
+    .image{
+        display: none;
+    }
+}
 
 @media screen and (max-width: 720px){
     .Text {
