@@ -39,12 +39,11 @@ const Projects = () => {
           </div>
         </div>
         <div class="project">
-          <div class="title">Guessing Game</div>
-          <div class="description">Choose a number between 1 and 10 with a limited number of tries. 
-           The user has as a health bar and an incorrect guesses will decrease your chances of winning.</div>
-          <div class="technologies">HTML, CSS, JavaScript</div>
+          <div class="title">Beedle</div>
+          <div class="description">A spelling bee game that challenges players to guess a daily word by listening to progressively longer audio hints.</div>
+          <div class="technologies">HTML, CSS, JavaScript, React</div>
           <div class="github-button">
-              <a href="https://github.com/quangt23/Online-Guessing-Game">
+              <a href="https://github.com/quangt23/Beedle">
               <img src={github}/>
               </a>
           </div>
